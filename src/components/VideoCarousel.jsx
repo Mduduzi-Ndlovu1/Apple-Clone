@@ -168,6 +168,7 @@ const VideoCarousel = () => {
         }
     }
   return (
+    //2:08.10
     <>
     <div className="flex items-center">
         {hightlightsSlides.map((list, i) => (
