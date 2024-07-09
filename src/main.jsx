@@ -12,9 +12,12 @@ Sentry.init({
     Sentry.browserTracingIntegration(),
     Sentry.metrics.metricsAggregatorIntegration(),
     Sentry.reactRouterV6BrowserTracingIntegration({
-      useEffect: React.useEffect,
+      useEffect: React.useEffect, 
     }),
-    Sentry.replayIntegration(),
+    Sentry.replayIntegration({
+      maskAllText: false,
+      blockAllMedia: false,
+    }),
   ],
   tracesSampleRate: 1.0, 
   tracePropagationTargets: ["localhost", /^https:\/\/yourserver\.io\/api/],
