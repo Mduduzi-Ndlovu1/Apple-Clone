@@ -211,24 +211,24 @@ The Model component is designed to integrate a 3D model viewer of the iPhone 15 
 
 ### State Management with useState:
 
-- **Purpose:** Manages the size of the model (either 'small' or 'large') and the model object containing details such as the title, colors, and image.
-- **Why:** Allows dynamic rendering and interaction based on the selected model size and its associated data.
+-  **Purpose:** Manages the size of the model (either 'small' or 'large') and the model object containing details such as the title, colors, and image.
+- - **Why:** Allows dynamic rendering and interaction based on the selected model size and its associated data.
 Ref Management with useRef:
 
 - **Purpose:** Handles references to control cameras (cameraControlSmall, cameraControlLarge) and create model groups (small, large) using Three.js.
-- **Why:** Enables direct manipulation and control over camera positions and model groups within the Three.js environment.
+- - **Why:** Enables direct manipulation and control over camera positions and model groups within the Three.js environment.
 Animation Handling with GSAP Timeline:
 
 - **Purpose:** Utilizes GSAP's timeline to manage animations when the size state changes.
-- **Why:** Provides smooth transitions (animateWithGsapTimeline) between the small and large views of the model, enhancing user experience and visual appeal.
+- - **Why:** Provides smooth transitions (animateWithGsapTimeline) between the small and large views of the model, enhancing user experience and visual appeal.
 GSAP Integration (useGSAP Hook):
 
 - **Purpose:** Applies GSAP animations (gsap.to) to animate the heading (#heading) upon component mount.
-- **Why:** Enhances visual dynamics and user engagement by animating key elements to draw attention effectively.
+- - **Why:** Enhances visual dynamics and user engagement by animating key elements to draw attention effectively.
 HTML Structure and Tailwind CSS Styling:
 
-- **Purpose:** Structures the component using semantic HTML elements (<section>, <h1>, <div>, <p>, <ul>, <button>) and applies Tailwind CSS classes for responsive design and consistent styling.
-- **Why:** Ensures accessibility, SEO optimization, and responsive layout management across different devices and screen sizes.
+- **Purpose:** Structures the component using semantic HTML elements "(<section>, <h1>, <div>, <p>, <ul>, <button>)" and applies Tailwind CSS classes for responsive design and consistent styling.
+- - **Why:** Ensures accessibility, SEO optimization, and responsive layout management across different devices and screen sizes.
 ModelView Component Explanation
 The ModelView component complements the Model component by rendering and controlling the 3D model view using Three.js and React-Three-Fiber:
 
