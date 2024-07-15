@@ -227,7 +227,7 @@ GSAP Integration (useGSAP Hook):
 - - **Why:** Enhances visual dynamics and user engagement by animating key elements to draw attention effectively.
 HTML Structure and Tailwind CSS Styling:
 
-- **Purpose:** Structures the component using semantic HTML elements "(<section>, <h1>, <div>, <p>, <ul>, <button>)" and applies Tailwind CSS classes for responsive design and consistent styling.
+- **Purpose:** Structures the component using semantic HTML elements `(<section>, <h1>, <div>, <p>, <ul>, <button>)` and applies Tailwind CSS classes for responsive design and consistent styling.
 - - **Why:** Ensures accessibility, SEO optimization, and responsive layout management across different devices and screen sizes.
 ModelView Component Explanation
 The ModelView component complements the Model component by rendering and controlling the 3D model view using Three.js and React-Three-Fiber:
