@@ -2,6 +2,12 @@
 
 Welcome to the Apple Clone Project! This repository showcases a clone of the Apple website, demonstrating various features and components using React, GSAP, and Three.js for animations and 3D rendering.
 
+## Demo
+
+Check out the live demo of the Apple Clone Project hosted [here](https://appleclone.webstreams.site).
+
+---
+
 ## Table of Contents
 
 1. [Features](#features)
